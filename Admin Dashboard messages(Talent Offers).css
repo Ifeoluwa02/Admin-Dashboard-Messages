@@ -294,13 +294,21 @@ padding-left: 0;
 #type-msg {
 padding: 0.3rem 10rem 0.3rem 1rem;
 }
+/*added by sushmita*/
+#artLogo{
+  width:40%;
+}
 }
 @media only screen and (max-width: 640px) {
 #type-msg {
 padding: 0.3rem 1rem 0.3rem 1rem;
 }
+	/*added by sushmita*/
+.color{font-size: 0.9rem;}
 }
-// Small devices (landscape phones, 576px and up)
+/*// Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) {
+
 padding: 0.3rem 1rem 0.3rem 1rem;
+
 }
