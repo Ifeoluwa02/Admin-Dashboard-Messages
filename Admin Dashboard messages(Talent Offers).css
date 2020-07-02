@@ -22,17 +22,38 @@ width:97%;
 h6.color{
 color:#084482;
 }
-.chat_ib h5{ font-size:16px; font-family: font-style: normal; Poppins; color:#464646; margin:0 0 8px 0;}
+.chat_ib h5{
+margin:0 0 8px 0;
+font-family: Poppins;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.15px;
+color: #1F2430;
+}
+.chat_ib p{
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+letter-spacing: 0.15px;
+color: #1F2430;
+}
 .chat_time{ font-size:10px; float:right;}
-.chat_ib p{ font-size:14px; color:#1F2430; margin:auto}
 .chat_img {
 float: left;
 width: 11%;
 }
 .chat_ib {
 float: right;
-padding: 2px 5px 2px 25px;
+padding: 2px 5px 2px 40px;
 width: 88%;
+font-size:16px; 
+font-family: 
+font-style: normal; 
+Poppins; color:#464646;
 }
 .chat_people{ overflow:hidden; clear:both;}
 .chat_list {
@@ -43,6 +64,8 @@ border-width:1px 1px 1px 1px;
 margin-left: 5%;
 margin-right:5%;
 padding: 10px 15px 10px;
+cursor: pointer;
+animation: fadein 2s;
 }
 .chat_list1 {
 box-shadow: 2px 8px 20px rgba(181, 181, 181, 0.2);
@@ -52,6 +75,7 @@ border-width:1px 1px 1px 1px;
 margin-left: 5%;
 margin-right:5%;
 padding: 10px 15px 10px;
+cursor: pointer;
 }
 .srch_bar .input-group-addon button {
 background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
@@ -63,6 +87,8 @@ font-size: 18px;
 .srch_bar .input-group-addon { margin: 0 0 0 -27px;}
 #main-content {
 padding-left: 234px;
+margin-left:3rem;
+margin-right:3rem;
 }
 .main-heading {
 font-size: 1.5rem;
